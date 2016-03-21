@@ -1,7 +1,7 @@
 {
-  "name": "ember-template",
+  "name": "ember-object-diagnostic",
   "version": "0.0.0",
-  "description": "Small description for ember-template goes here",
+  "description": "Diagnostic for material on ember-object",
   "private": true,
   "directories": {
     "doc": "doc",
