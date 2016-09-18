@@ -42,8 +42,9 @@ You should be running `grunt nag` before diagnosing any bugs, since it finds
  some of the most common sources of errors.
 You can test whether or not your script is working by adding some `console.log`
  statements to the script and serving up the Ember app.
- 
+
 ## [License](LICENSE)
 
-Source code distributed under the MIT license. Text and other assets copyright
-General Assembly, Inc., all rights reserved.
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+   alternative licensing, please contact legal@ga.co.
