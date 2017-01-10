@@ -23,3 +23,31 @@
 //  -  Order 1 : 2 hats ($5 each)
 //  -  Order 2 : 1 desk lamp ($20 each)
 //  -  Order 3 : 3 hand towels ($8 each)
+
+const Order = Ember.Object.extend({
+  price: this.price,
+  quantity: this.quantity,
+  orderPrice: Ember.computed('price', 'quantity', function() {
+    return `${this.get('price')}` * `{this.get('quantity')}`;
+  })
+});
+
+const Cart = Ember.Object.extend({
+  orders: [],
+  addToCart: function() {
+    return this.get('orders').pushObject('item');
+  },
+
+  totalPrice: Ember.computed('orderPrice', function() {
+    let total = 0;
+    return total += this.get('orderPrice');
+  })
+});
+
+let newCart = Cart.create({
+  orders: [
+  Ember.object.create({name: 'hat', quantity: 2, price: 5}),
+  Ember.object.create({name: 'desk lamp', quantity: 1, price: 20}),
+  Ember.object.create({name: 'hand towels', quantity: 3, price: 8}),
+]
+});
