@@ -16,6 +16,8 @@ This diagnostic measures your ability to create and use Ember Objects and
 1.  Install dependencies by running `npm install` and `bower install`.
 1.  Create and checkout a new branch, named `response`.
 1.  Follow the directions given in [diagnostic.js](./public/diagnostic.js).
+1.  All diagnostic responses are to be made in [diagnostic.js](./public/diagnostic.js).
+1.  Do not work inside the actual ember app in this repository.
 1.  Before the alotted time is up, push to your fork and issue a pull request.
 
 Your pull request description should contain a "fist to five" for comfort and
@@ -47,4 +49,4 @@ You can test whether or not your script is working by adding some `console.log`
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
 1.  All software code is licensed under GNU GPLv3. For commercial use or
-   alternative licensing, please contact legal@ga.co.
+    alternative licensing, please contact legal@ga.co.
